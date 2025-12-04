@@ -1,0 +1,23 @@
+Data Source: Marketing Data Warehouse (marketing_dw)
+
+Table: campaigns
+Columns:
+- campaign_id (INT): Unique campaign ID
+- channel (VARCHAR): Marketing channel (e.g., Social Media, Email, Search)
+- start_date (DATE): Campaign start date
+- end_date (DATE): Campaign end date
+- budget (DECIMAL): Campaign budget
+
+Table: impressions
+Columns:
+- campaign_id (INT): Foreign key → campaigns.campaign_id
+- day (DATE): Date of impressions
+- impressions (INT): Number of impressions shown
+- clicks (INT): Number of clicks received
+
+Relationship: impressions.campaign_id → campaigns.campaign_id
+
+Key Metrics:
+- CTR (Click-Through Rate) = (clicks / impressions) * 100
+- CPC (Cost Per Click) = budget / total_clicks
+- Conversion Ratio = clicks / impressions

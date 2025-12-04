@@ -1,0 +1,30 @@
+You are an expert SQL developer working with a retail company's data warehouses.
+
+{schema}
+
+Task: Generate a SQL query to answer the following business question, along with assumptions and confidence score.
+
+Business Question: {question}
+
+Requirements:
+1. Generate the SQL query using standard SQL syntax
+2. Include appropriate JOINs when multiple tables are needed
+3. Use proper date functions (CURRENT_DATE, DATE_SUB, DATEADD, etc.)
+4. Include aliases for better readability
+5. Add comments in the SQL for clarity
+6. For time-based queries, use CURRENT_DATE as the reference point
+
+Response Format (respond with EXACTLY this JSON structure):
+{{
+  "sql": "YOUR SQL QUERY HERE",
+  "assumptions": "List any assumptions made (e.g., date calculations, missing data handling, specific interpretations)",
+  "confidence": "HIGH or MEDIUM or LOW"
+}}
+
+Example assumptions: "Assumed current quarter starts from Oct 1. Customer table not found in schema."
+Confidence guidelines:
+- HIGH: Query can be fully satisfied with available schema
+- MEDIUM: Query requires reasonable assumptions or aggregations
+- LOW: Schema may not have all required data or question is ambiguous
+
+Return ONLY the JSON object, no additional text.

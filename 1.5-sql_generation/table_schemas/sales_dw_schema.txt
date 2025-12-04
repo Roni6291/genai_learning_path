@@ -1,0 +1,20 @@
+Data Source: Sales Data Warehouse (sales_dw)
+
+Table: sales
+Columns:
+- sale_id (INT): Unique identifier for each sale
+- product_id (INT): Foreign key → products.product_id
+- region (VARCHAR): Sales region
+- sale_date (DATE): Date of transaction
+- sales_amount (DECIMAL): Revenue from transaction
+- quantity (INT): Number of units sold
+
+Table: products
+Columns:
+- product_id (INT): Unique product ID
+- product_name (VARCHAR): Name of the product
+- category (VARCHAR): Product category
+- subcategory (VARCHAR): Subcategory
+- brand (VARCHAR): Product brand
+
+Relationship: sales.product_id → products.product_id

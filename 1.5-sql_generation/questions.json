@@ -1,0 +1,130 @@
+{
+  "description": "Business questions asked by the business team",
+  "total_questions": 20,
+  "categories": {
+    "sales": 10,
+    "marketing": 10
+  },
+  "questions": [
+    {
+      "id": 1,
+      "category": "Sales",
+      "data_source": "sales_dw",
+      "question": "What are the top 5 products by sales amount in the last 90 days?"
+    },
+    {
+      "id": 2,
+      "category": "Sales",
+      "data_source": "sales_dw",
+      "question": "Show the month-over-month sales growth by region for the past 6 months."
+    },
+    {
+      "id": 3,
+      "category": "Sales",
+      "data_source": "sales_dw",
+      "question": "Which categories contributed the most to total revenue in the last year?"
+    },
+    {
+      "id": 4,
+      "category": "Sales",
+      "data_source": "sales_dw",
+      "question": "Find the average order value (AOV) per region in the current quarter."
+    },
+    {
+      "id": 5,
+      "category": "Sales",
+      "data_source": "sales_dw",
+      "question": "Identify the top 3 brands with highest quantity sold in the last 30 days."
+    },
+    {
+      "id": 6,
+      "category": "Sales",
+      "data_source": "sales_dw",
+      "question": "Which subcategory had the sharpest decline in sales compared to the previous quarter?"
+    },
+    {
+      "id": 7,
+      "category": "Sales",
+      "data_source": "sales_dw",
+      "question": "What is the percentage contribution of each region to total sales this year?"
+    },
+    {
+      "id": 8,
+      "category": "Sales",
+      "data_source": "sales_dw",
+      "question": "Show the trend of sales_amount vs quantity sold for Electronics products."
+    },
+    {
+      "id": 9,
+      "category": "Sales",
+      "data_source": "sales_dw",
+      "question": "Find the product with the highest sales per unit (sales_amount ÷ quantity) in the last 60 days."
+    },
+    {
+      "id": 10,
+      "category": "Sales",
+      "data_source": "sales_dw",
+      "question": "List the top 10 customers by revenue (if customer table exists)."
+    },
+    {
+      "id": 11,
+      "category": "Marketing",
+      "data_source": "marketing_dw",
+      "question": "Which channel had the highest total impressions in the last quarter?"
+    },
+    {
+      "id": 12,
+      "category": "Marketing",
+      "data_source": "marketing_dw",
+      "question": "Calculate the average click-through rate (CTR) per channel last month."
+    },
+    {
+      "id": 13,
+      "category": "Marketing",
+      "data_source": "marketing_dw",
+      "question": "Which campaign delivered the lowest cost per click (CPC) in the last 6 months?"
+    },
+    {
+      "id": 14,
+      "category": "Marketing",
+      "data_source": "marketing_dw",
+      "question": "Find the total budget spent per channel in the last year."
+    },
+    {
+      "id": 15,
+      "category": "Marketing",
+      "data_source": "marketing_dw",
+      "question": "Identify the top 3 campaigns by impressions during their active periods."
+    },
+    {
+      "id": 16,
+      "category": "Marketing",
+      "data_source": "marketing_dw",
+      "question": "What is the daily average impressions vs clicks trend for Social Media campaigns?"
+    },
+    {
+      "id": 17,
+      "category": "Marketing",
+      "data_source": "marketing_dw",
+      "question": "Which channel shows the highest conversion ratio (clicks ÷ impressions) overall?"
+    },
+    {
+      "id": 18,
+      "category": "Marketing",
+      "data_source": "marketing_dw",
+      "question": "List campaigns that ran for more than 60 days and their total spend."
+    },
+    {
+      "id": 19,
+      "category": "Marketing",
+      "data_source": "marketing_dw",
+      "question": "Compare campaign budgets vs actual clicks to highlight underperforming campaigns."
+    },
+    {
+      "id": 20,
+      "category": "Marketing",
+      "data_source": "marketing_dw",
+      "question": "Find the month with the highest total impressions across all campaigns."
+    }
+  ]
+}

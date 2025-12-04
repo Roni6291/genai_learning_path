@@ -1,0 +1,9 @@
+Text-to-Image Generation Documentation
+================================================================================
+
+Model Name: black-forest-labs/FLUX.1-schnell
+Prompt: Visualize the sales performance dashboard of the retail company, showing products, regions, and campaigns as icons or infographics.
+Output Path: C:\Users\ronya\scratches\genai_learning_path\1.6-text_to_image\output\dashboard.png
+Image Size: (512, 512)
+Image Mode: RGB
+Generated at: 2025-12-04 14:42:56
