@@ -1,0 +1,48 @@
+📝 Assignment: Mini RAG on Term Insurance Document
+
+📂 Files Provided
+- doc.txt → Term Insurance reference document (10 paragraphs)
+- questions.txt → 5 simple queries
+
+🎯 Objective
+Build a mini Retrieval-Augmented Generation (RAG) pipeline using the given domain-specific document (doc.txt). 
+Focus on three steps: chunking, retrieval, and re-ranking.
+
+---
+
+Tasks
+
+Task 1 — Chunking
+- Load doc.txt
+- Apply two chunking strategies:
+  1. Fixed window (40 words per chunk, 10-word overlap)
+  2. Sentence-aware (combine 2–3 sentences per chunk)
+- Compare number and size of chunks.
+
+Task 2 — Retrieval
+- Implement two retrievers: TF-IDF and BM25
+- Run retrieval for each query in questions.txt
+- For each query, return top-3 chunks from both retrievers.
+- Compare retrievers.
+
+Task 3 — Re-ranking
+- For each query:
+  1. Retrieve top-6 candidates using BM25
+  2. Re-rank them using TF-IDF cosine similarity
+  3. Return top-3 re-ranked chunks
+- Compare baseline vs re-ranked results.
+- Write 2–3 lines: Did re-ranking improve ordering?
+
+---
+
+Deliverables
+1. results.txt → For each query: 
+   - Top-3 chunks from TF-IDF
+   - Top-3 chunks from BM25
+   - Top-3 chunks after re-ranking
+
+
+💡 Hints
+- Normalize text before vectorization.
+- Use scikit-learn (TF-IDF) and rank-bm25 (BM25).
+- Keep results readable by printing chunk previews.

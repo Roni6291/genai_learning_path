@@ -1,0 +1,92 @@
+2025-12-11 10:05:41.813 | INFO     | __main__:<module>:35 - Total questions loaded: 5
+2025-12-11 10:05:41.816 | INFO     | __main__:<module>:40 - Total chunks created: 14
+2025-12-11 10:05:41.816 | INFO     | retrieval.tf_idf:__init__:47 - TFIDFVectorStore initialized with max_features=None, min_df=1, max_df=1.0
+2025-12-11 10:05:41.816 | INFO     | retrieval.tf_idf:fit:101 - Fitting vectorizer on 14 samples
+2025-12-11 10:05:41.825 | INFO     | retrieval.tf_idf:fit:107 - Vectorizer fitted. Generated 218 features
+2025-12-11 10:05:41.841 | SUCCESS  | retrieval.tf_idf:transform_texts:145 - Stored 14 vectors in memory
+2025-12-11 10:05:41.842 | INFO     | retrieval.bm25:vectorize:143 - Vectorizing 14 texts with BM25+
+2025-12-11 10:05:41.876 | SUCCESS  | retrieval.bm25:vectorize:157 - Vectorized 14 texts with BM25+
+2025-12-11 10:05:41.876 | INFO     | retrieval.tf_idf:as_retriever:173 - Creating TFIDFRetriever from TFIDFVectorStore
+2025-12-11 10:05:41.877 | INFO     | retrieval.base:__init__:72 - BaseRetriever initialized
+2025-12-11 10:05:41.877 | INFO     | retrieval.bm25:as_retriever:190 - Creating BM25PlusRetriever from BM25PlusVectorStore
+2025-12-11 10:05:41.878 | INFO     | retrieval.base:__init__:72 - BaseRetriever initialized
+2025-12-11 10:05:41.878 | INFO     | __main__:<module>:55 - ================================================================================
+2025-12-11 10:05:41.878 | INFO     | __main__:<module>:56 - Processing Question 1: What is term insurance
+2025-12-11 10:05:41.879 | INFO     | __main__:<module>:57 - ================================================================================
+2025-12-11 10:05:41.879 | INFO     | __main__:<module>:59 - Retrieving using TFIDF Retriever
+2025-12-11 10:05:41.879 | INFO     | retrieval.tf_idf:retrieve:200 - Retrieving top 3 results for query: What is term insurance
+2025-12-11 10:05:41.883 | SUCCESS  | retrieval.tf_idf:retrieve:220 - Retrieved 3 results
+2025-12-11 10:05:41.884 | INFO     | __main__:<module>:63 - Text: is therefore important to buy term insurance primarily for protection, not investment | Similarity Score: 0.3676
+2025-12-11 10:05:41.884 | INFO     | __main__:<module>:63 - Text: plans do not build wealth If the policyholder survives the term, there is no return of premium unless a “return of premium” option is chosen, which increases the cost It is therefore important to buy term insurance primarily for protection, | Similarity Score: 0.3527
+2025-12-11 10:05:41.884 | INFO     | __main__:<module>:63 - Text: Introduction Term insurance is the most straightforward type of life insurance It provides coverage for a fixed duration (the “term”) If the policyholder passes away during this term, the nominee receives the death benefit However, if the insured survives the | Similarity Score: 0.3212
+2025-12-11 10:05:41.884 | INFO     | __main__:<module>:65 - Retrieving using BM25+ Retriever
+2025-12-11 10:05:41.885 | INFO     | retrieval.bm25:retrieve:220 - Retrieving top 3 results for query: What is term insurance
+2025-12-11 10:05:41.886 | SUCCESS  | retrieval.bm25:retrieve:234 - Retrieved 3 results
+2025-12-11 10:05:41.886 | INFO     | __main__:<module>:69 - Text: is therefore important to buy term insurance primarily for protection, not investment | Similarity Score: 5.2043
+2025-12-11 10:05:41.887 | INFO     | __main__:<module>:69 - Text: plans do not build wealth If the policyholder survives the term, there is no return of premium unless a “return of premium” option is chosen, which increases the cost It is therefore important to buy term insurance primarily for protection, | Similarity Score: 4.9252
+2025-12-11 10:05:41.887 | INFO     | __main__:<module>:69 - Text: Introduction Term insurance is the most straightforward type of life insurance It provides coverage for a fixed duration (the “term”) If the policyholder passes away during this term, the nominee receives the death benefit However, if the insured survives the | Similarity Score: 4.8120
+2025-12-11 10:05:41.888 | INFO     | __main__:<module>:71 - 
+2025-12-11 10:05:41.888 | INFO     | __main__:<module>:55 - ================================================================================
+2025-12-11 10:05:41.888 | INFO     | __main__:<module>:56 - Processing Question 2: Why are term plans affordable
+2025-12-11 10:05:41.889 | INFO     | __main__:<module>:57 - ================================================================================
+2025-12-11 10:05:41.889 | INFO     | __main__:<module>:59 - Retrieving using TFIDF Retriever
+2025-12-11 10:05:41.889 | INFO     | retrieval.tf_idf:retrieve:200 - Retrieving top 3 results for query: Why are term plans affordable
+2025-12-11 10:05:41.892 | SUCCESS  | retrieval.tf_idf:retrieve:220 - Retrieved 3 results
+2025-12-11 10:05:41.892 | INFO     | __main__:<module>:63 - Text: to the family of the insured It ensures that in case of an unfortunate event, dependents can continue their lives without financial hardship Affordability and Simplicity Term plans are generally cheaper compared to whole life or endowment plans They are | Similarity Score: 0.3599
+2025-12-11 10:05:41.893 | INFO     | __main__:<module>:63 - Text: costs Online plans also provide flexibility, transparency, and instant premium calculators However, some people prefer offline plans for the personal guidance of an insurance agent Limitations of Term Insurance Term plans do not build wealth If the policyholder survives the | Similarity Score: 0.2916
+2025-12-11 10:05:41.893 | INFO     | __main__:<module>:63 - Text: the death benefit received by the nominee is usually tax-free under Section 10(10D) Online vs Offline Plans Many insurers now offer online plans that are cheaper due to lower administrative costs Online plans also provide flexibility, transparency, and instant premium | Similarity Score: 0.2851
+2025-12-11 10:05:41.893 | INFO     | __main__:<module>:65 - Retrieving using BM25+ Retriever
+2025-12-11 10:05:41.894 | INFO     | retrieval.bm25:retrieve:220 - Retrieving top 3 results for query: Why are term plans affordable
+2025-12-11 10:05:41.894 | SUCCESS  | retrieval.bm25:retrieve:234 - Retrieved 3 results
+2025-12-11 10:05:41.895 | INFO     | __main__:<module>:69 - Text: to the family of the insured It ensures that in case of an unfortunate event, dependents can continue their lives without financial hardship Affordability and Simplicity Term plans are generally cheaper compared to whole life or endowment plans They are | Similarity Score: 6.2762
+2025-12-11 10:05:41.895 | INFO     | __main__:<module>:69 - Text: the death benefit received by the nominee is usually tax-free under Section 10(10D) Online vs Offline Plans Many insurers now offer online plans that are cheaper due to lower administrative costs Online plans also provide flexibility, transparency, and instant premium | Similarity Score: 5.4514
+2025-12-11 10:05:41.895 | INFO     | __main__:<module>:69 - Text: cheaper compared to whole life or endowment plans They are designed to give high coverage for relatively low premiums Since they do not involve savings or investments, they are easy to understand and transparent Choosing Coverage Experts recommend that the | Similarity Score: 5.3890
+2025-12-11 10:05:41.895 | INFO     | __main__:<module>:71 - 
+2025-12-11 10:05:41.896 | INFO     | __main__:<module>:55 - ================================================================================
+2025-12-11 10:05:41.896 | INFO     | __main__:<module>:56 - Processing Question 3: What is the recommended coverage amount
+2025-12-11 10:05:41.896 | INFO     | __main__:<module>:57 - ================================================================================
+2025-12-11 10:05:41.896 | INFO     | __main__:<module>:59 - Retrieving using TFIDF Retriever
+2025-12-11 10:05:41.897 | INFO     | retrieval.tf_idf:retrieve:200 - Retrieving top 3 results for query: What is the recommended coverage amount
+2025-12-11 10:05:41.899 | SUCCESS  | retrieval.tf_idf:retrieve:220 - Retrieved 3 results
+2025-12-11 10:05:41.899 | INFO     | __main__:<module>:63 - Text: Introduction Term insurance is the most straightforward type of life insurance It provides coverage for a fixed duration (the “term”) If the policyholder passes away during this term, the nominee receives the death benefit However, if the insured survives the | Similarity Score: 0.3322
+2025-12-11 10:05:41.900 | INFO     | __main__:<module>:63 - Text: to understand and transparent Choosing Coverage Experts recommend that the coverage (sum assured) should be 10–15 times the annual income of the policyholder This helps cover long-term expenses such as education, home loans, and daily living costs of dependents Policy | Similarity Score: 0.2816
+2025-12-11 10:05:41.900 | INFO     | __main__:<module>:63 - Text: receives the death benefit However, if the insured survives the policy period, there is usually no maturity benefit Purpose of Term Insurance The main objective is to provide financial security to the family of the insured It ensures that in | Similarity Score: 0.2713
+2025-12-11 10:05:41.900 | INFO     | __main__:<module>:65 - Retrieving using BM25+ Retriever
+2025-12-11 10:05:41.901 | INFO     | retrieval.bm25:retrieve:220 - Retrieving top 3 results for query: What is the recommended coverage amount
+2025-12-11 10:05:41.902 | SUCCESS  | retrieval.bm25:retrieve:234 - Retrieved 3 results
+2025-12-11 10:05:41.902 | INFO     | __main__:<module>:69 - Text: Introduction Term insurance is the most straightforward type of life insurance It provides coverage for a fixed duration (the “term”) If the policyholder passes away during this term, the nominee receives the death benefit However, if the insured survives the | Similarity Score: 4.7846
+2025-12-11 10:05:41.903 | INFO     | __main__:<module>:69 - Text: to understand and transparent Choosing Coverage Experts recommend that the coverage (sum assured) should be 10–15 times the annual income of the policyholder This helps cover long-term expenses such as education, home loans, and daily living costs of dependents Policy | Similarity Score: 4.6018
+2025-12-11 10:05:41.903 | INFO     | __main__:<module>:69 - Text: cheaper compared to whole life or endowment plans They are designed to give high coverage for relatively low premiums Since they do not involve savings or investments, they are easy to understand and transparent Choosing Coverage Experts recommend that the | Similarity Score: 4.5825
+2025-12-11 10:05:41.904 | INFO     | __main__:<module>:71 - 
+2025-12-11 10:05:41.906 | INFO     | __main__:<module>:55 - ================================================================================
+2025-12-11 10:05:41.906 | INFO     | __main__:<module>:56 - Processing Question 4: What is one rider available with term insurance
+2025-12-11 10:05:41.907 | INFO     | __main__:<module>:57 - ================================================================================
+2025-12-11 10:05:41.907 | INFO     | __main__:<module>:59 - Retrieving using TFIDF Retriever
+2025-12-11 10:05:41.907 | INFO     | retrieval.tf_idf:retrieve:200 - Retrieving top 3 results for query: What is one rider available with term insurance
+2025-12-11 10:05:41.909 | SUCCESS  | retrieval.tf_idf:retrieve:220 - Retrieved 3 results
+2025-12-11 10:05:41.909 | INFO     | __main__:<module>:63 - Text: is therefore important to buy term insurance primarily for protection, not investment | Similarity Score: 0.2696
+2025-12-11 10:05:41.910 | INFO     | __main__:<module>:63 - Text: plans do not build wealth If the policyholder survives the term, there is no return of premium unless a “return of premium” option is chosen, which increases the cost It is therefore important to buy term insurance primarily for protection, | Similarity Score: 0.2587
+2025-12-11 10:05:41.910 | INFO     | __main__:<module>:63 - Text: Introduction Term insurance is the most straightforward type of life insurance It provides coverage for a fixed duration (the “term”) If the policyholder passes away during this term, the nominee receives the death benefit However, if the insured survives the | Similarity Score: 0.2356
+2025-12-11 10:05:41.911 | INFO     | __main__:<module>:65 - Retrieving using BM25+ Retriever
+2025-12-11 10:05:41.911 | INFO     | retrieval.bm25:retrieve:220 - Retrieving top 3 results for query: What is one rider available with term insurance
+2025-12-11 10:05:41.911 | SUCCESS  | retrieval.bm25:retrieve:234 - Retrieved 3 results
+2025-12-11 10:05:41.912 | INFO     | __main__:<module>:69 - Text: is therefore important to buy term insurance primarily for protection, not investment | Similarity Score: 6.9960
+2025-12-11 10:05:41.912 | INFO     | __main__:<module>:69 - Text: plans do not build wealth If the policyholder survives the term, there is no return of premium unless a “return of premium” option is chosen, which increases the cost It is therefore important to buy term insurance primarily for protection, | Similarity Score: 6.7170
+2025-12-11 10:05:41.912 | INFO     | __main__:<module>:69 - Text: Introduction Term insurance is the most straightforward type of life insurance It provides coverage for a fixed duration (the “term”) If the policyholder passes away during this term, the nominee receives the death benefit However, if the insured survives the | Similarity Score: 6.6038
+2025-12-11 10:05:41.913 | INFO     | __main__:<module>:71 - 
+2025-12-11 10:05:41.913 | INFO     | __main__:<module>:55 - ================================================================================
+2025-12-11 10:05:41.913 | INFO     | __main__:<module>:56 - Processing Question 5: Why is claim settlement ratio important
+2025-12-11 10:05:41.914 | INFO     | __main__:<module>:57 - ================================================================================
+2025-12-11 10:05:41.914 | INFO     | __main__:<module>:59 - Retrieving using TFIDF Retriever
+2025-12-11 10:05:41.915 | INFO     | retrieval.tf_idf:retrieve:200 - Retrieving top 3 results for query: Why is claim settlement ratio important
+2025-12-11 10:05:41.917 | SUCCESS  | retrieval.tf_idf:retrieve:220 - Retrieved 3 results
+2025-12-11 10:05:41.918 | INFO     | __main__:<module>:63 - Text: may include accidental death benefits, critical illness cover, premium waiver in case of disability, and income benefit riders Riders help tailor the policy to individual needs Claim Settlement Ratio Before purchasing a policy, it’s essential to check the claim settlement | Similarity Score: 0.3674
+2025-12-11 10:05:41.918 | INFO     | __main__:<module>:63 - Text: purchasing a policy, it’s essential to check the claim settlement ratio of the insurer This percentage shows how many claims the insurer pays out compared to claims received A higher ratio builds confidence that claims will be honored promptly Tax | Similarity Score: 0.2622
+2025-12-11 10:05:41.919 | INFO     | __main__:<module>:63 - Text: is therefore important to buy term insurance primarily for protection, not investment | Similarity Score: 0.2407
+2025-12-11 10:05:41.920 | INFO     | __main__:<module>:65 - Retrieving using BM25+ Retriever
+2025-12-11 10:05:41.920 | INFO     | retrieval.bm25:retrieve:220 - Retrieving top 3 results for query: Why is claim settlement ratio important
+2025-12-11 10:05:41.922 | SUCCESS  | retrieval.bm25:retrieve:234 - Retrieved 3 results
+2025-12-11 10:05:41.923 | INFO     | __main__:<module>:69 - Text: may include accidental death benefits, critical illness cover, premium waiver in case of disability, and income benefit riders Riders help tailor the policy to individual needs Claim Settlement Ratio Before purchasing a policy, it’s essential to check the claim settlement | Similarity Score: 13.9767
+2025-12-11 10:05:41.924 | INFO     | __main__:<module>:69 - Text: purchasing a policy, it’s essential to check the claim settlement ratio of the insurer This percentage shows how many claims the insurer pays out compared to claims received A higher ratio builds confidence that claims will be honored promptly Tax | Similarity Score: 13.2242
+2025-12-11 10:05:41.924 | INFO     | __main__:<module>:69 - Text: is therefore important to buy term insurance primarily for protection, not investment | Similarity Score: 11.4621
+2025-12-11 10:05:41.925 | INFO     | __main__:<module>:71 - 

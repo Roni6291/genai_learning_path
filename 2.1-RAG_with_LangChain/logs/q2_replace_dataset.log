@@ -1,0 +1,47 @@
+2025-12-09 12:37:37.603 | INFO     | __main__:<module>:25 - Loading existing FAISS index...
+2025-12-09 12:37:37.726 | INFO     | __main__:<module>:27 - Loaded vector store with 66 vectors.
+2025-12-09 12:37:37.727 | INFO     | __main__:<module>:49 - Created retriever from vector store.
+2025-12-09 12:37:37.728 | INFO     | __main__:<module>:79 - Query 1: What does Dumbledore's will say about Harry Potter?
+2025-12-09 12:37:47.093 | INFO     | __main__:<module>:83 - Retrieved 4 documents
+2025-12-09 12:37:47.093 | INFO     | __main__:<module>:85 - Doc 1 excerpt: to read them. As he looked, a tear splashed onto the embossed
+symbols.
+“Why do you think Dumbledore left you that book, Miss
+Granger?” asked Scrimgeour
+“He . . . he knew I liked books,” said Hermione ...
+2025-12-09 12:37:47.094 | INFO     | __main__:<module>:85 - Doc 2 excerpt: Chapter 7
+to look back at her; it was like gazing into a brilliant light.
+“Nice view,” he said feebly, pointing toward the window.
+She ignored this. He could not blame her,
+“I couldn’t think what to g...
+2025-12-09 12:37:47.094 | INFO     | __main__:<module>:85 - Doc 3 excerpt: Chapter 7
+tifacts,” said Hermione, “and the Ministry is supposed to have
+evidence that the deceased’s possessions are illegal before seizing
+them! Are you telling me that you thought Dumbledore was tr...
+2025-12-09 12:37:47.094 | INFO     | __main__:<module>:85 - Doc 4 excerpt: “‘I open at the close . . . ’ What’s that supposed to mean?”
+Hermione and Ron shook their heads, looking back.
+“I open at the close . . . at the close . . . I open at the close . . . ”
+But no matter h...
+2025-12-09 12:38:49.994 | INFO     | __main__:<module>:88 - Response 1: Dumbledore’s will gave the sword to Harry Potter.
+2025-12-09 12:38:49.994 | INFO     | __main__:<module>:91 - 
+Query 2: What items were left to Hermione Granger?
+2025-12-09 12:38:59.362 | INFO     | __main__:<module>:94 - Retrieved 4 documents
+2025-12-09 12:38:59.362 | INFO     | __main__:<module>:96 - Doc 1 excerpt: to read them. As he looked, a tear splashed onto the embossed
+symbols.
+“Why do you think Dumbledore left you that book, Miss
+Granger?” asked Scrimgeour
+“He . . . he knew I liked books,” said Hermione ...
+2025-12-09 12:38:59.363 | INFO     | __main__:<module>:96 - Doc 2 excerpt: Chapter 7
+to look back at her; it was like gazing into a brilliant light.
+“Nice view,” he said feebly, pointing toward the window.
+She ignored this. He could not blame her,
+“I couldn’t think what to g...
+2025-12-09 12:38:59.363 | INFO     | __main__:<module>:96 - Doc 3 excerpt: Chapter 7
+“Put out lights, I s’pose,” mumbled Ron. “What else could I
+do with it?”
+Evidently Scrimgeour had no suggestions. After squinting at
+Ron for a moment or two, he turned back to Dumbledore’s w...
+2025-12-09 12:38:59.363 | INFO     | __main__:<module>:96 - Doc 4 excerpt: Chapter 7
+tifacts,” said Hermione, “and the Ministry is supposed to have
+evidence that the deceased’s possessions are illegal before seizing
+them! Are you telling me that you thought Dumbledore was tr...
+2025-12-09 12:40:08.707 | INFO     | __main__:<module>:99 - Response 2: The Tales of Beedle the Bard and a copy of Secrets of the Darkest Arts.
