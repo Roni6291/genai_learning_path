@@ -1,0 +1,12 @@
+[project]
+name = "2-3-rag-evaluation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "loguru>=0.7.3",
+    "nltk>=3.9.2",
+    "rouge-score>=0.1.2",
+    "sentence-transformers>=5.2.0",
+]
